@@ -90,7 +90,6 @@ export default function FeaturesPage() {
                   <li>• iOS Keychain for secure credential storage</li>
                   <li>• AES encryption with RSA key protection on Android</li>
                   <li>• Local data storage with no external servers</li>
-                  <li>• End-to-end encryption for all communications</li>
                 </ul>
               </div>
               <div className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700">
@@ -98,7 +97,6 @@ export default function FeaturesPage() {
                 <ul className="space-y-3 text-gray-600 dark:text-gray-300">
                   <li>• No data sharing with third parties</li>
                   <li>• Transparent open-source codebase</li>
-                  <li>• User-controlled data retention</li>
                   <li>• Compliance with privacy regulations</li>
                 </ul>
               </div>

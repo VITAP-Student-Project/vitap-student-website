@@ -1,12 +1,12 @@
 import Navigation from "@/components/navigation"
-import HomePage from "@/components/home-page"
+import FeaturesPage from "@/components/features-page"
 import Footer from "@/components/footer"
 
-export default function Home() {
+export default function Features() {
   return (
     <div className="bg-white dark:bg-gray-900 min-h-screen">
       <Navigation />
-      <HomePage />
+      <FeaturesPage />
       <Footer />
     </div>
   )

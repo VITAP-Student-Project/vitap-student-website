@@ -9,7 +9,7 @@ export default function TermsPage() {
 
         <div className="bg-yellow-50 dark:bg-yellow-900/20 border-l-4 border-yellow-500 p-6 mb-8">
           <p className="text-yellow-800 dark:text-yellow-200">
-            These Terms and Conditions ("Terms") govern your use of the VIT-AP Student App ("App"), developed by Udhay
+            These Terms and Conditions ("Terms") govern your use of the VIT-AP Student ("App"), developed by Udhay
             Adithya J. By using this App, you agree to comply with these Terms. If you do not agree with any part of
             these Terms, you must not use the App.
           </p>
@@ -46,37 +46,43 @@ export default function TermsPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">3. Content Ownership</h2>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">3. Data Collection and Use</h2>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
-              <p className="text-gray-600 dark:text-gray-300">
-                Users retain ownership of any content they may create within the App. However, the developer retains the
-                right to remove or moderate any content that violates these Terms.
-              </p>
-            </div>
-          </div>
-
-          <div>
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">4. Data Collection and Use</h2>
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
-              <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
+              <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2 mb-4">
                 <li>
-                  The App does not collect or store personal data apart from what is essential for the functionality of
-                  the App.
+                  The App uses Firebase Analytics to collect anonymized usage data including:
+                  <ul className="list-disc list-inside ml-6 mt-2 space-y-1">
+                    <li>Screen navigation patterns</li>
+                    <li>Interaction events</li>
+                    <li>Aggregated user group information (joining year and branch)</li>
+                  </ul>
                 </li>
                 <li>
-                  Your VTOP credentials are stored locally in encrypted form, and the App fetches academic data from the
-                  VTOP portal.
+                  Your full registration number is never collected or stored. Only derived properties (first 5 characters) are used for grouping in analytics.
                 </li>
                 <li>
-                  No data is shared with third parties, and the developer is not responsible for any inaccuracies in the
-                  academic data fetched from VTOP.
+                  By using the App, you agree to Google's{' '}
+                  <a
+                    href="https://policies.google.com/terms"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 dark:text-blue-400 hover:underline"
+                  >
+                    Terms of Service
+                  </a>{' '}
+                  for Firebase.
                 </li>
               </ul>
+              <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-4">
+                <p className="text-red-800 dark:text-red-200">
+                  <strong>Important:</strong> Your VTOP credentials are stored locally in encrypted form, and the App fetches academic data from the VTOP portal. The developer is not responsible for any inaccuracies in the academic data fetched from VTOP.
+                </p>
+              </div>
             </div>
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">5. Data Scraping Consent</h2>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">4. Data Scraping Consent</h2>
             <div className="bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 p-6">
               <p className="text-blue-800 dark:text-blue-200">
                 By using this App, you explicitly agree that your academic data will be scraped from the VTOP Portal for
@@ -88,31 +94,28 @@ export default function TermsPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">6. Limitation of Liability</h2>
-            <div className="space-y-4">
-              <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
-                <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
-                  <li>
-                    The App displays academic data fetched from the VTOP Portal. The developer is not responsible for
-                    any inaccuracies or unavailability of the data on VTOP. For any issues with the data, users must
-                    contact the <strong>Software Development Cell of VIT-AP University</strong>.
-                  </li>
-                  <li>
-                    In the event of technical issues or bugs, users can report them using the in-app report feature.
-                    These issues will be addressed promptly, and updates will be rolled out to fix any bugs.
-                  </li>
-                  <li>
-                    If the VTOP portal is unavailable, the App will display locally stored data, but no new data can be
-                    fetched until VTOP is operational again.
-                  </li>
-                </ul>
-              </div>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">5. Limitation of Liability</h2>
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
+              <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
+                <li>
+                  The App displays academic data fetched from the VTOP Portal. The developer is not responsible for
+                  any inaccuracies or unavailability of the data on VTOP. For any issues with the data, users must
+                  contact the <strong>Software Development Cell of VIT-AP University</strong>.
+                </li>
+                <li>
+                  In the event of technical issues or bugs, users can report them using the in-app report feature.
+                </li>
+                <li>
+                  If the VTOP portal is unavailable, the App will display locally stored data, but no new data can be
+                  fetched until VTOP is operational again.
+                </li>
+              </ul>
             </div>
           </div>
 
           <div>
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-              7. Changes to Terms and Conditions
+              6. Changes to Terms and Conditions
             </h2>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
               <p className="text-gray-600 dark:text-gray-300">
@@ -124,24 +127,16 @@ export default function TermsPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">8. Termination of Access</h2>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">7. Termination of Access</h2>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
-              <p className="text-gray-600 dark:text-gray-300 mb-4">
-                The developer reserves the right to terminate or suspend access to the App for users who:
-              </p>
-              <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-1">
-                <li>Violate these Terms.</li>
-                <li>Exploit bugs or vulnerabilities in the App.</li>
-                <li>Engage in prohibited activities.</li>
-              </ul>
-              <p className="text-gray-600 dark:text-gray-300 mt-4">
-                Users who disagree with these Terms may discontinue using the App at any time.
+              <p className="text-gray-600 dark:text-gray-300">
+                The developer reserves the right to terminate or suspend access to the App for users who violate these Terms.
               </p>
             </div>
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">9. Governing Law</h2>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">8. Governing Law</h2>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
               <p className="text-gray-600 dark:text-gray-300">
                 These Terms are governed by the laws of the state of Andhra Pradesh, India. Any legal disputes arising
@@ -151,7 +146,7 @@ export default function TermsPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">10. Contact Information</h2>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">9. Contact Information</h2>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700">
               <p className="text-gray-600 dark:text-gray-300 mb-4">
                 For any queries, issues, or concerns related to the App, users must contact the developer directly:
@@ -162,9 +157,6 @@ export default function TermsPage() {
                 </p>
                 <p className="text-gray-600 dark:text-gray-300">
                   <strong>Email:</strong> udhayxd@gmail.com
-                </p>
-                <p className="text-gray-600 dark:text-gray-300">
-                  <strong>Registration Number:</strong> 23BCE7625
                 </p>
               </div>
               <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-4 mt-4">

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "The ultimate student app for VIT-AP University. Access academic information, track attendance, view timetables, and stay organized with real-time updates.",
   keywords: "VIT-AP, VITAP, student app, VTOP, academic tracker, attendance, timetable, grades, university app",
-  authors: [{ name: "Udhay Adithya J", url: "https://udhay-adithya.me" }],
+  authors: [{ name: "Udhay Adithya J", email: "udhayxd@gmail.com" }],
   creator: "Udhay Adithya J",
   publisher: "Udhay Adithya J",
   robots: "index, follow",
