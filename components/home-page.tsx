@@ -36,7 +36,7 @@ export default function HomePage() {
                 <div className="bg-gray-900 dark:bg-gray-800 rounded-3xl p-2 shadow-2xl">
                   <img
                     src="/home.png"
-                    alt="VITAP Companion App Screenshot"
+                    alt="VITAP Student App Screenshot"
                     className="w-72 h-auto rounded-2xl"
                   />
                 </div>
@@ -143,7 +143,7 @@ export default function HomePage() {
                     <span className="text-sm font-bold text-blue-600 dark:text-blue-400">📱</span>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 dark:text-white">VITAP Companion App</h4>
+                    <h4 className="font-semibold text-gray-900 dark:text-white">VITAP Student App</h4>
                     <p className="text-gray-600 dark:text-gray-300">
                       Flutter-based mobile application with modern UI and comprehensive student features
                     </p>

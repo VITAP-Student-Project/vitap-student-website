@@ -25,7 +25,7 @@ export default function Navigation() {
             <div className="w-8 h-8 rounded-lg flex items-center justify-center">
               <img
                 src="/app_icon.png"
-                alt="VITAP Companion Logo"
+                alt="VITAP Student Logo"
                 className="w-8 h-8 rounded-lg object-contain"
               />
             </div>

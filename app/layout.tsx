@@ -7,37 +7,58 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "VITAP Companion App - Revolutionize Your Student Experience",
+  title: "VITAP Student - Revolutionize Your Student Experience",
   description:
     "The ultimate student app for VIT-AP University. Access academic information, track attendance, view timetables, and stay organized with real-time updates.",
   keywords: "VIT-AP, VITAP, student app, VTOP, academic tracker, attendance, timetable, grades, university app",
-  authors: [{ name: "Udhay Adithya J", email: "udhayxd@gmail.com" }],
+  authors: [{ name: "Udhay Adithya J", url: "https://udhay-adithya.me" }],
   creator: "Udhay Adithya J",
   publisher: "Udhay Adithya J",
   robots: "index, follow",
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+    other: [
+      {
+        rel: 'android-chrome-192x192',
+        url: '/android-chrome-192x192.png',
+        sizes: '192x192'
+      },
+      {
+        rel: 'android-chrome-512x512',
+        url: '/android-chrome-512x512.png',
+        sizes: '512x512'
+      }
+    ]
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://vitap-companion.vercel.app",
-    title: "VITAP Companion App - Revolutionize Your Student Experience",
+    title: "VITAP Student - Revolutionize Your Student Experience",
     description:
       "The ultimate student app for VIT-AP University. Access academic information, track attendance, view timetables, and stay organized.",
-    siteName: "VITAP Companion",
+    siteName: "VITAP Student",
     images: [
       {
-        url: "/og-image.png",
+        url: "app_icon.png",
         width: 1200,
         height: 630,
-        alt: "VITAP Companion App",
+        alt: "VITAP Student App",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "VITAP Companion App - Revolutionize Your Student Experience",
+    title: "VITAP Student App - Revolutionize Your Student Experience",
     description:
       "The ultimate student app for VIT-AP University. Access academic information, track attendance, view timetables, and stay organized.",
-    images: ["/og-image.png"],
+    images: ["/app_icon.png"],
     creator: "@udhayxd",
   },
   viewport: "width=device-width, initial-scale=1",
@@ -45,7 +66,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: light)", color: "#ffffff" },
     { media: "(prefers-color-scheme: dark)", color: "#0f172a" },
   ],
-    generator: 'v0.dev'
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -63,7 +84,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "SoftwareApplication",
-              name: "VITAP Companion App",
+              name: "VITAP Student App",
               description:
                 "The ultimate student app for VIT-AP University students to access academic information, track attendance, and stay organized.",
               applicationCategory: "EducationalApplication",
@@ -83,7 +104,7 @@ export default function RootLayout({
                 name: "Udhay Adithya J",
               },
               downloadUrl: "https://github.com/Udhay-Adithya/vit_ap_student_app/releases",
-              screenshot: "/app-screenshot.png",
+              screenshot: "/home.png",
               aggregateRating: {
                 "@type": "AggregateRating",
                 ratingValue: "4.8",
@@ -94,7 +115,7 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           {children}
         </ThemeProvider>
       </body>

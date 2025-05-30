@@ -5,7 +5,7 @@ export default function FeaturesPage() {
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-6">Features</h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Discover all the powerful features that make VITAP Companion the ultimate student app
+            Discover all the powerful features that make VITAP Student the ultimate student app
           </p>
         </div>
 
