@@ -1,4 +1,7 @@
+"use client"
+
 import { Download, Code, Star, Heart } from "lucide-react"
+import { ContributorsSection } from "./contributors"
 
 export default function HomePage() {
   return (
@@ -224,6 +227,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Contributors Section */}
+      <ContributorsSection />
 
       {/* Support/Donation Section */}
       <section className="py-20 bg-white dark:bg-gray-800">
