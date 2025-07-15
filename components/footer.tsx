@@ -27,7 +27,7 @@ export default function Footer() {
             <ul className="space-y-3 text-gray-400">
               <li>
                 <a
-                  href="https://github.com/Udhay-Adithya/vit_ap_student_app"
+                  href="https://github.com/VITAP-Student-Project/vitap_student_app/"
                   className="hover:text-white transition-colors"
                 >
                   Vitap Student
@@ -47,6 +47,14 @@ export default function Footer() {
                   className="hover:text-white transition-colors"
                 >
                   Vtop Client
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/VITAP-Student-Project/vitap_student_app/tree/main/lib/src/rust"
+                  className="hover:text-white transition-colors"
+                >
+                  Vtop Rust Library
                 </a>
               </li>
             </ul>

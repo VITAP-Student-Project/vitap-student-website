@@ -153,7 +153,7 @@ export default function Navigation() {
               Terms
             </Link>
             <a
-              href="https://github.com/Udhay-Adithya/vit_ap_student_app"
+              href="https://github.com/VITAP-Student-Project/vitap_student_app"
               target="_blank"
               rel="noopener noreferrer"
               className="block text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 px-3 py-2"

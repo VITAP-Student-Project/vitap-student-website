@@ -18,11 +18,11 @@ export default function HomePage() {
                   attendance, and stay organized with real-time updates.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
-                  <a href="https://github.com/Udhay-Adithya/vit_ap_student_app/releases" className="btn-primary-large">
+                  <a href="https://play.google.com/store/apps/details?id=com.udhay.vitapstudentapp" className="btn-primary-large">
                     <Download className="w-5 h-5 mr-2" />
                     Download App
                   </a>
-                  <a href="https://github.com/Udhay-Adithya/vit_ap_student_app" className="btn-secondary-large">
+                  <a href="https://github.com/VITAP-Student-Project/vitap_student_app" className="btn-secondary-large">
                     <Code className="w-5 h-5 mr-2" />
                     View Source
                   </a>
@@ -139,7 +139,7 @@ export default function HomePage() {
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Complete Development Stack</h3>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mt-1">
+                  <div className="w-10 h-8 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mt-1">
                     <span className="text-sm font-bold text-blue-600 dark:text-blue-400">📱</span>
                   </div>
                   <div>
@@ -150,30 +150,41 @@ export default function HomePage() {
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-gray-100 dark:bg-gray-700 rounded-lg flex items-center justify-center mt-1">
+                  <div className="w-10 h-8 bg-gray-100 dark:bg-gray-700 rounded-lg flex items-center justify-center mt-1">
                     <span className="text-sm font-bold text-gray-600 dark:text-gray-400">🔗</span>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 dark:text-white">VTOP API</h4>
+                    <h4 className="font-semibold text-gray-900 dark:text-white">Vtop API</h4>
                     <p className="text-gray-600 dark:text-gray-300">
                       FastAPI wrapper providing RESTful access to VTOP data with authentication and rate limiting
                     </p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-gray-100 dark:bg-gray-700 rounded-lg flex items-center justify-center mt-1">
+                  <div className="w-10 h-8 bg-gray-100 dark:bg-gray-700 rounded-lg flex items-center justify-center mt-1">
                     <span className="text-sm font-bold text-gray-600 dark:text-gray-400">🐍</span>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 dark:text-white">VTOP Client Library</h4>
+                    <h4 className="font-semibold text-gray-900 dark:text-white">Vtop Client Library</h4>
                     <p className="text-gray-600 dark:text-gray-300">
                       Python library for programmatic VTOP portal interaction with session management
                     </p>
                   </div>
                 </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-10 h-8 bg-orange-100 dark:bg-orange-900 rounded-lg flex items-center justify-center mt-1">
+                    <span className="text-sm font-bold text-orange-600 dark:text-orange-400">🦀</span>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900 dark:text-white">Rust Vtop Library</h4>
+                    <p className="text-gray-600 dark:text-gray-300">
+                      High-performance Rust library integrated with Flutter via flutter_rust_bridge for native mobile performance
+                    </p>
+                  </div>
+                </div>
               </div>
               <div className="mt-8 flex flex-wrap gap-4">
-                <a href="https://github.com/Udhay-Adithya/vit_ap_student_app" className="btn-secondary">
+                <a href="https://github.com/VITAP-Student-Project/vitap_student_app" className="btn-secondary">
                   App Repository
                 </a>
                 <a href="https://github.com/Udhay-Adithya/vit_ap_vtop_api" className="btn-secondary">
@@ -181,6 +192,9 @@ export default function HomePage() {
                 </a>
                 <a href="https://github.com/Udhay-Adithya/vitap-vtop-client" className="btn-secondary">
                   Python Library
+                </a>
+                <a href="https://docs.rs/crate/lib_vtop/latest" className="btn-secondary">
+                  Rust Library
                 </a>
               </div>
             </div>
@@ -263,7 +277,7 @@ export default function HomePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://www.buymeacoffee.com/udhayxd"
+                href="https://buymeacoffee.com/udhayxdw"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary inline-flex items-center"
